@@ -1,0 +1,13 @@
+feature_name,entity,description,calculation,data_type
+user_avg_rating,user,Mean rating given by user,mean(rating),float
+user_activity_count,user,Number of historical interactions,count(movie_id),integer
+user_last_interaction,user,Latest historical interaction,max(timestamp),datetime
+user_days_since_last_interaction,user,Days since latest historical interaction,reference_time - user_last_interaction,float
+user_preferred_genre,user,Most frequently interacted genre,mode(genre),string
+age,user,User age from metadata,users.age,integer
+region,user,User region from metadata,users.region,string
+item_popularity,item,Historical interaction count,count(user_id),integer
+item_avg_rating,item,Mean historical rating,mean(rating),float
+genre,item,Movie genre from metadata,items.genre,string
+release_year,item,Movie release year,items.release_year,integer
+days_since_reference,interaction,Age of event relative to reference timestamp,reference_time - timestamp,float

@@ -1,0 +1,11 @@
+{
+  "random_seed": 42,
+  "train_fraction": 0.80,
+  "relevance_threshold": 4.0,
+  "k": 5,
+  "svd_components": 20,
+  "svd_random_state": 42,
+  "synthetic_users": 200,
+  "synthetic_items": 80,
+  "synthetic_interactions": 5000
+}

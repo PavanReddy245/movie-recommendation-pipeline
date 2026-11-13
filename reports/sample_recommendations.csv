@@ -1,0 +1,6 @@
+rank,movie_id,title,genre,release_year,model,feature_reference_time
+1,55,Movie 055,Sci-Fi,2010,svd,2024-10-16T10:29:27+00:00
+2,19,Movie 019,Comedy,2022,svd,2024-10-16T10:29:27+00:00
+3,51,Movie 051,Thriller,2010,svd,2024-10-16T10:29:27+00:00
+4,5,Movie 005,Drama,2006,svd,2024-10-16T10:29:27+00:00
+5,18,Movie 018,Action,2003,svd,2024-10-16T10:29:27+00:00

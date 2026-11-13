@@ -1,0 +1,11 @@
+flowchart LR
+ A[CSV ingestion] --> B[Validation & quarantine]
+ B --> C[Chronological split]
+ C --> D[Derived datasets]
+ D --> E[Reusable features]
+ E --> F[Popularity baseline]
+ E --> G[Personalized SVD hybrid]
+ F --> H[Ranking & rating evaluation]
+ G --> H
+ H --> I[Experiment tracking]
+ I --> J[Python scheduler / Airflow DAG]

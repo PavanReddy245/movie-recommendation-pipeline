@@ -1,0 +1,7 @@
+user_id,movie_id,rating,timestamp,dataset,error_reason
+1,1,,2024-04-01T00:00:00+00:00,interactions,missing_or_non_numeric_required_value
+2,2,8.0,2024-04-02T00:00:00+00:00,interactions,rating_out_of_range
+3,3,4.0,not-a-date,interactions,invalid_timestamp
+9999,4,4.0,2024-04-03T00:00:00+00:00,interactions,unknown_user_id
+4,9999,3.0,2024-04-04T00:00:00+00:00,interactions,unknown_movie_id
+36,76,4.0,2024-07-20T14:42:15+00:00,interactions,duplicate_interaction

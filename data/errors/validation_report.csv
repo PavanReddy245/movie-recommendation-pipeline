@@ -1,0 +1,2 @@
+users_input,users_valid,users_invalid,items_input,items_valid,items_invalid,input_interactions,valid_interactions,invalid_interactions,invalid_issue_rows,duplicate_interactions,missing_required_interaction_values,invalid_interaction_types,invalid_timestamps,invalid_ratings,invalid_rating_types,unknown_users,unknown_movies,metadata_issue_rows
+200,200,0,80,80,0,5006,5000,6,6,1,1,0,1,1,0,1,1,0
